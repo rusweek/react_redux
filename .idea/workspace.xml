@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98ebbc57-fbc5-4ed1-890c-f785d72441d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/compose.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shop-header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shop-header/shop-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shop-header/shop-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shopping-cart-table/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/book-list-item/book-list-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list-item/book-list-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/book-list-item/book-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list-item/book-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/book-list/book-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list/book-list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redusers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redusers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/bookstore-service.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +86,8 @@
       <updated>1575288216106</updated>
       <workItem from="1575288223969" duration="26000" />
       <workItem from="1575288352798" duration="4379000" />
-      <workItem from="1575698926906" duration="12431000" />
+      <workItem from="1575698926906" duration="13190000" />
+      <workItem from="1575803118987" duration="5328000" />
     </task>
     <task id="LOCAL-00001" summary="очистка приложения. Старт приложения">
       <created>1575289480682</created>
@@ -113,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575713435699</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="написано взаимодействие компонента с хранилищем&#10;1 приходят данные из books store services&#10;2 записываются данные в хранилище booksLoaded и далее через состояние mapStateToProps отрисовываются&#10;&#10;compose для удобства">
+      <created>1575719490100</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575719490100</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +156,7 @@
     <MESSAGE value="созданы базовые заготовки для работы React без Redux" />
     <MESSAGE value="столько сделано. Контекст, зачатки редакса, типа роутер" />
     <MESSAGE value="подключена страница homePage к redux store" />
-    <option name="LAST_COMMIT_MESSAGE" value="подключена страница homePage к redux store" />
+    <MESSAGE value="написано взаимодействие компонента с хранилищем&#10;1 приходят данные из books store services&#10;2 записываются данные в хранилище booksLoaded и далее через состояние mapStateToProps отрисовываются&#10;&#10;compose для удобства" />
+    <option name="LAST_COMMIT_MESSAGE" value="написано взаимодействие компонента с хранилищем&#10;1 приходят данные из books store services&#10;2 записываются данные в хранилище booksLoaded и далее через состояние mapStateToProps отрисовываются&#10;&#10;compose для удобства" />
   </component>
 </project>
