@@ -4,10 +4,7 @@
     <list default="true" id="98ebbc57-fbc5-4ed1-890c-f785d72441d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/book-list-item/book-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list-item/book-list-item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shop-header/shop-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop-header/shop-header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redusers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redusers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/bookstore-service.js" afterDir="false" />
     </list>
@@ -80,7 +77,8 @@
       <workItem from="1575288223969" duration="26000" />
       <workItem from="1575288352798" duration="4379000" />
       <workItem from="1575698926906" duration="13190000" />
-      <workItem from="1575803118987" duration="8746000" />
+      <workItem from="1575803118987" duration="9479000" />
+      <workItem from="1575981521866" duration="1340000" />
     </task>
     <task id="LOCAL-00001" summary="очистка приложения. Старт приложения">
       <created>1575289480682</created>
@@ -131,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575810377692</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="добавлен индикатор загрузки при переходе от страницы к странице">
+      <created>1575817591256</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575817591256</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +163,7 @@
     <MESSAGE value="подключена страница homePage к redux store" />
     <MESSAGE value="написано взаимодействие компонента с хранилищем&#10;1 приходят данные из books store services&#10;2 записываются данные в хранилище booksLoaded и далее через состояние mapStateToProps отрисовываются&#10;&#10;compose для удобства" />
     <MESSAGE value="добавлено оформление. Добавлены header, shope-list etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлено оформление. Добавлены header, shope-list etc." />
+    <MESSAGE value="добавлен индикатор загрузки при переходе от страницы к странице" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен индикатор загрузки при переходе от страницы к странице" />
   </component>
 </project>
