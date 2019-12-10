@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redusers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redusers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/bookstore-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/compose.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/compose.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <workItem from="1575288352798" duration="4379000" />
       <workItem from="1575698926906" duration="13190000" />
       <workItem from="1575803118987" duration="9479000" />
-      <workItem from="1575981521866" duration="1340000" />
+      <workItem from="1575981521866" duration="4968000" />
     </task>
     <task id="LOCAL-00001" summary="очистка приложения. Старт приложения">
       <created>1575289480682</created>
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575817591256</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="добавлена обработка ошибок">
+      <created>1575982914690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575982914690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +170,7 @@
     <MESSAGE value="написано взаимодействие компонента с хранилищем&#10;1 приходят данные из books store services&#10;2 записываются данные в хранилище booksLoaded и далее через состояние mapStateToProps отрисовываются&#10;&#10;compose для удобства" />
     <MESSAGE value="добавлено оформление. Добавлены header, shope-list etc." />
     <MESSAGE value="добавлен индикатор загрузки при переходе от страницы к странице" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен индикатор загрузки при переходе от страницы к странице" />
+    <MESSAGE value="добавлена обработка ошибок" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлена обработка ошибок" />
   </component>
 </project>
