@@ -51,7 +51,8 @@ const mapStateToProps = (state) => {
     }
 };
 
-const mapDispatchToProps = (dispatch, {bookStoreService}) => {
+const mapDispatchToProps = (dispatch, ownProps) => {
+    const {bookStoreService} = ownProps;
     return {
         fetchBooks: fetchBooks(bookStoreService, dispatch)
 

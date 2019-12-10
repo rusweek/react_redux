@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/compose.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/compose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hoc/with-bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc/with-bookstore-service.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
       <workItem from="1575288352798" duration="4379000" />
       <workItem from="1575698926906" duration="13190000" />
       <workItem from="1575803118987" duration="9479000" />
-      <workItem from="1575981521866" duration="4968000" />
+      <workItem from="1575981521866" duration="7816000" />
     </task>
     <task id="LOCAL-00001" summary="очистка приложения. Старт приложения">
       <created>1575289480682</created>
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575982914690</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="рефакторинг">
+      <created>1575987607134</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575987607134</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +178,7 @@
     <MESSAGE value="добавлено оформление. Добавлены header, shope-list etc." />
     <MESSAGE value="добавлен индикатор загрузки при переходе от страницы к странице" />
     <MESSAGE value="добавлена обработка ошибок" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлена обработка ошибок" />
+    <MESSAGE value="рефакторинг" />
+    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг" />
   </component>
 </project>
