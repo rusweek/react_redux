@@ -10,7 +10,23 @@ import {compose} from "../../utils";
 import Spinner from "../spinner";
 import ErrorIndicator from "../error-indicator";
 
-class BookList extends Component{
+const BookList = ({books}) => {
+    return(
+        <ul className="books-list">
+            {
+                books.map((book) => {
+                    return(
+                        <li key={book.id}>
+                            <BookListItem book={book}/>
+                        </li>
+                    )
+                })
+            }
+        </ul>
+    )
+};
+
+class BookListContainer extends Component{
 
     componentDidMount() {
         this.props.fetchBooks()
@@ -27,21 +43,13 @@ class BookList extends Component{
             return <ErrorIndicator/>;
         }
 
-        return(
-            <ul className="books-list">
-                {
-                    books.map((book) => {
-                        return(
-                            <li key={book.id}>
-                                <BookListItem book={book}/>
-                            </li>
-                        )
-                    })
-                }
-            </ul>
-        )
+        return <BookList books={books} />
+
+
     }
 }
+
+
 
 const mapStateToProps = (state) => {
     return {
@@ -63,6 +71,6 @@ const mapDispatchToProps = (dispatch, ownProps) => {
 export default compose(
     withBookStoreService(),
     connect(mapStateToProps, mapDispatchToProps)
-)(BookList);
+)(BookListContainer);
 
 //export default withBookStoreService()(connect(mapStateToProps, mapDispatchToProps)(BookList));

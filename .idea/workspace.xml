@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98ebbc57-fbc5-4ed1-890c-f785d72441d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hoc/with-bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc/with-bookstore-service.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +74,7 @@
       <workItem from="1575288352798" duration="4379000" />
       <workItem from="1575698926906" duration="13190000" />
       <workItem from="1575803118987" duration="9479000" />
-      <workItem from="1575981521866" duration="7816000" />
+      <workItem from="1575981521866" duration="8667000" />
     </task>
     <task id="LOCAL-00001" summary="очистка приложения. Старт приложения">
       <created>1575289480682</created>
@@ -149,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575987607134</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="нашел ошибку">
+      <created>1575990283682</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575990283682</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +183,7 @@
     <MESSAGE value="добавлен индикатор загрузки при переходе от страницы к странице" />
     <MESSAGE value="добавлена обработка ошибок" />
     <MESSAGE value="рефакторинг" />
-    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг" />
+    <MESSAGE value="нашел ошибку" />
+    <option name="LAST_COMMIT_MESSAGE" value="нашел ошибку" />
   </component>
 </project>
